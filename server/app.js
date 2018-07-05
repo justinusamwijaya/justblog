@@ -10,6 +10,4 @@ app.use(express.urlencoded({extended:false}))
 
 app.use('',routes)
 
-app.listen(3000,()=>{
-    console.log('RA DENGER APA2')
-})
+module.exports = app
